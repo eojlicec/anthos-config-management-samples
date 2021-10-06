@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/instance: 'elastic-operator'
     app.kubernetes.io/name: 'eck-operator-crds'
     app.kubernetes.io/version: '1.4.1'
-  name: apmserversz.apm.k8s.elastic.co
+  name: apmservers.apmz.k8s.elastic.co
 spec:
   additionalPrinterColumns:
   - JSONPath: .status.health
